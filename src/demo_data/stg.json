@@ -1,0 +1,228 @@
+{
+    "version": "4.8.1",
+    "groups": [
+        {
+            "id": 6,
+            "title": "Continuous Integration",
+            "iconColor": "hsla(221, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/ci-configurations/jenkins-ci.md",
+                    "title": "semantic-release/jenkins-ci.md at master · semantic-release/semantic-release",
+                    "id": 29
+                },
+                {
+                    "url": "https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/",
+                    "title": "How to Automate Project Versioning and Releases with Continuous Deployment | CSS-Tricks - CSS-Tricks",
+                    "id": 30
+                },
+                {
+                    "url": "https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly",
+                    "title": "commitizen/cz-cli: The commitizen command line utility. #BlackLivesMatter",
+                    "id": 31
+                },
+                {
+                    "url": "https://www.npmjs.com/package/cz-conventional-changelog",
+                    "title": "cz-conventional-changelog - npm",
+                    "id": 32
+                },
+                {
+                    "url": "https://dev.to/sohandutta/make-everyone-in-your-project-write-beautiful-commit-messages-using-commitlint-and-commitizen-1amn",
+                    "title": "Make everyone in your project write beautiful commit messages using commitlint and commitizen 🚀 - DEV Community",
+                    "id": 33
+                },
+                {
+                    "url": "https://medium.com/tunaiku-tech/automate-javascript-project-versioning-with-commitizen-and-standard-version-6a967afae7",
+                    "title": "Automate JavaScript project versioning with commitizen and standard-version | by Christian Ing Sunardi | Tunaiku Tech | Medium",
+                    "id": 34
+                },
+                {
+                    "url": "https://stackoverflow.com/questions/19922435/how-to-push-changes-to-github-after-jenkins-build-completes",
+                    "title": "git - How to push changes to github after jenkins build completes? - Stack Overflow",
+                    "id": 35
+                },
+                {
+                    "url": "https://semantic-release.gitbook.io/semantic-release/usage/configuration",
+                    "title": "Configuration - semantic-release",
+                    "id": 59
+                }
+            ],
+            "isArchive": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isMain": false,
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToMainIfNotInCatchTabRules": false,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "dontDiscardTabsAfterHideThisGroup": false,
+            "bookmarkId": null,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false
+        },
+        {
+            "id": 10,
+            "title": "Authentication Providers",
+            "iconColor": "hsla(149, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://www.youtube.com/watch?v=996OiexHze0",
+                    "title": "(1) OAuth 2.0 and OpenID Connect (in plain English) - YouTube",
+                    "id": 132
+                },
+                {
+                    "url": "https://betweendata.io/posts/react-keycloak-authentication/",
+                    "title": "Using OpenID Connect (OIDC) to secure your React application",
+                    "id": 197
+                }
+            ],
+            "isArchive": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isMain": false,
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToMainIfNotInCatchTabRules": false,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "dontDiscardTabsAfterHideThisGroup": false,
+            "bookmarkId": null,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false
+        },
+        {
+            "id": 16,
+            "title": "Image upload",
+            "iconColor": "hsla(20, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://javascript.plainenglish.io/upload-images-in-your-node-app-e05d0423fd4a",
+                    "title": "How to Upload Images in Your Node.js App | by Sristi Chowdhury | JavaScript in Plain English",
+                    "id": 60
+                },
+                {
+                    "url": "https://cloudinary.com/documentation/node_integration",
+                    "title": "Node.js SDK – Node.js Upload + Image, Video Transformations | Cloudinary",
+                    "id": 61
+                },
+                {
+                    "url": "https://www.freecodecamp.org/news/how-to-allow-users-to-upload-images-with-node-express-mongoose-and-cloudinary-84cefbdff1d9/?utm_source=pocket_mylist",
+                    "title": "How to allow users to upload images with Node/Express, Mongoose, and Cloudinary",
+                    "id": 62
+                },
+                {
+                    "url": "https://medium.com/swlh/uploading-images-to-your-node-js-backend-978261eb0724",
+                    "title": "Uploading Images to Your Node.js Backend | by Andrew Richards | The Startup | Medium",
+                    "id": 63
+                },
+                {
+                    "url": "https://betterprogramming.pub/how-to-integrate-cloud-services-for-image-upload-in-a-node-js-react-web-app-9cc0aea25015",
+                    "title": "How To Integrate Cloud Services for Image Upload in a Node.js + React Web App | by Mariana Vargas | Better Programming",
+                    "id": 64
+                }
+            ],
+            "isArchive": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isMain": false,
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToMainIfNotInCatchTabRules": false,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "dontDiscardTabsAfterHideThisGroup": false,
+            "bookmarkId": null,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false
+        }
+    ],
+    "lastCreatedGroupPosition": 39,
+    "discardTabsAfterHide": false,
+    "discardAfterHideExcludeAudioTabs": false,
+    "closePopupAfterChangeGroup": true,
+    "closePopupAfterSelectTab": false,
+    "openGroupAfterChange": false,
+    "alwaysAskNewGroupName": true,
+    "prependGroupTitleToWindowTitle": false,
+    "createNewGroupWhenOpenNewWindow": false,
+    "openManageGroupsInTab": true,
+    "showConfirmDialogBeforeGroupArchiving": true,
+    "showConfirmDialogBeforeGroupDelete": true,
+    "showNotificationAfterGroupDelete": true,
+    "showContextMenuOnTabs": true,
+    "showContextMenuOnLinks": true,
+    "exportGroupToMainBookmarkFolder": true,
+    "defaultBookmarksParent": "toolbar_____",
+    "leaveBookmarksOfClosedTabs": false,
+    "showExtendGroupsPopupWithActiveTabs": false,
+    "showTabsWithThumbnailsInManageGroups": false,
+    "fullPopupWidth": false,
+    "temporaryContainerTitle": "⌚Temporary Container",
+    "contextMenuTab": [
+        "open-in-new-window",
+        "reload",
+        "discard",
+        "remove",
+        "update-thumbnail",
+        "set-group-icon",
+        "move-tab-to-group"
+    ],
+    "contextMenuGroup": [
+        "open-in-new-window",
+        "sort-asc",
+        "sort-desc",
+        "discard",
+        "discard-other",
+        "export-to-bookmarks",
+        "unload",
+        "archive",
+        "rename",
+        "reload-all-tabs"
+    ],
+    "defaultGroupIconViewType": "main-squares",
+    "defaultGroupIconColor": "",
+    "autoBackupEnable": true,
+    "autoBackupLastBackupTimeStamp": 1679040103,
+    "autoBackupIntervalKey": "days",
+    "autoBackupIntervalValue": 1,
+    "autoBackupIncludeTabThumbnails": true,
+    "autoBackupIncludeTabFavIcons": true,
+    "autoBackupGroupsToBookmarks": true,
+    "autoBackupGroupsToFile": true,
+    "autoBackupFolderName": "STG-backups-FF-110.0",
+    "autoBackupByDayIndex": true,
+    "theme": "auto",
+    "hotkeys": [
+        {
+            "ctrlKey": true,
+            "shiftKey": false,
+            "altKey": false,
+            "metaKey": false,
+            "key": "`",
+            "keyCode": 192,
+            "action": "load-next-group",
+            "groupId": 0
+        },
+        {
+            "ctrlKey": true,
+            "shiftKey": true,
+            "altKey": false,
+            "metaKey": false,
+            "key": "`",
+            "keyCode": 192,
+            "action": "load-prev-group",
+            "groupId": 0
+        }
+    ],
+    "containers": {}
+}

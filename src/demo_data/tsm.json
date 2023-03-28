@@ -1,0 +1,25 @@
+[
+    {
+        "windows": {
+            "785": {
+                "890": {
+                    "id": 890,
+                    "url": "https://www.trollfootball.me/latest?page=1",
+                    "title": "Latest Posts",
+                    "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABgFBMVEUAAAAAAAD////AwMDHx8fa2tqmpqZtbW3m5ubs7Oy5ubmysrLT09Otra2GhoZ6enp0dHTMzMyNjY3g4OCgoKAAAAB/f3/FxcXf39/Y2NgCAgJ5eXkAAADz8/OBgYG4uLiZmZnNzc1nZ2e+vr5zc3Py8vLOzs7S0tKfn584ODjU1NRcXFxlZWVERET4+PhUVFRwcHAODg6rq6tXV1f6+voFBQU7OztaWlpra2s1NTWQkJC8vLynp6cAAAADAwMUFBSUlJQAAAAAAACzs7OamppNTU0AAACIiIgJCQkqKioAAACEhIQdHR0QEBAAAAAhISFAQECAgIAaGhpHR0cAAABqamoAAADDw8MAAADc3NwLCwsYGBhgYGAAAAAxMTEAAADo6OgAAADKysoAAAAAAAAAAAAVFRX9/f0AAAAAAADp6emwsLAAAAAAAAAAAABeXl4AAAAAAAAuLi4AAAAAAAAAAAAAAABRUVElJSUAAADR0dEgICAAAAASEhIAAAAAAAAo2LOFAAAAgHRSTlP/AP/////////////////////////+////////Av//////////////////////////////////////////9////wXv////pP///8P////h///////S/8n/T//////Z/3P/Cf9d1Un//4Lq//+ybsr/jBP/uWmUiv//Gv//5f++YrPPKFYAAAIZSURBVHicXZOHdtpAEEUHYSRM6CCwFUAE5ARZEFpMN2DA3XGNe03i9N578uuZLRLY95zV7sx7krYN2IZ8XgeCvPJkJGkZPvSU4DNBEFqCMF6Dy7nrhr3iFKqCENqnnUNZuGKIyRmaP8E/LMXp0D87apAPSa5EpwBgUIedOahBhsZyVfrOdYCZxd3Fn8JxzzTMwsd7yIVlgLvI4RGsM8NX6MQplr4dnyLMwBtqABhnVEzDJItfAlFtzyF/4aRMc11hodM5D+/RADAR4uD02mgQQxMc/ATEABycMu+7Dscko43yea46jbjd7v0APih1bHcIvs4X6EU3blMCO4HALcajZoCRa/4GGPONUVqso+hRRj4qA9jtW3aCTp+MtJomtJppnLPLVXA15v9AxjVE3a6FVVXVVRUN/X6frv7pjSGv2H7gCDuPx8P2R8QRp8gypRIe8IOuKPIzFE0KfEtFMbEHjzfDYR6Xw4yMeSaZzNkB7uVgYCYagyRhyYyTSZRtb8tZM1EwcvqZ/u2Yh8Vu/hMaYrAaVGgiF+Rww2qHHrftfM3rPcL4vtckQvWEt/iPXbkX2UQi1VYSyFaEUgX4FYmUL81LC5rP59vARrhJWMYmydatnoNdv79Q83M0raJpWhZio4WzKUl1ycQwJKkiU90qvb+KkarvpAjv1k5SeeX19eJ9eApssWQ9sMJeHzUgPxbwegCcHliljfwHwN9Qhvv0RHoAAAAASUVORK5CYII="
+                },
+                "891": {
+                    "id": 891,
+                    "url": "https://www.sofascore.com/",
+                    "title": "Football - scores, schedule & odds | Sofascore",
+                    "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAACVBMVEVhAPf///9mAPf2hMLsAAAAJUlEQVR4nGOgFDCGAoEDAUYYTHEIYQYIiIJ0EWBMJWQpjEERAAAslBB9mA6KQgAAAABJRU5ErkJggg=="
+                }
+            }
+        },
+        "name": "Demo Backup",
+        "tabsNumber": 2,
+        "date": 1679042878834,
+        "tag": "Demo",
+        "sessionStartTime": "1679041170429"
+    }
+]
