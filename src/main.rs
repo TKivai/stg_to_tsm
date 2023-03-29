@@ -1,4 +1,4 @@
-use color_eyre::eyre::Context;
+use color_eyre::{eyre::eyre, eyre::Context};
 use serde::Deserialize;
 use std::collections::HashMap;
 
@@ -6,10 +6,15 @@ use std::collections::HashMap;
 struct TSMConfig {
     windows: HashMap<String, HashMap<String, TSMTab>>,
     name: String,
-    tabsNumber: u32,
+
+    #[serde(rename(deserialize = "tabsNumber"))]
+    tabs_number: usize,
+
     date: u64,
     tag: String,
-    sessionStartTime: String,
+
+    #[serde(rename(deserialize = "sessionStartTime"))]
+    session_start_time: String,
 }
 
 // #[derive(Deserialize, Debug)]
@@ -33,18 +38,41 @@ fn main() -> color_eyre::Result<()> {
     // Read STG JSON file as input
     let text = read_input()?;
 
-    let result = serde_json::from_str::<Vec<TSMConfig>>(&text).unwrap();
-    
+    let result = serde_json::from_str::<Vec<TSMConfig>>(&text)?;
+
     for session in result {
-        println!("{:#?}", session);
+        for window in session.windows.values() {
+            match is_valid_tabs_number(window, session.tabs_number) {
+                Ok(valid) => {
+                    if valid {
+                        println!("Valid window")
+                    } else {
+                        println!("Inalid window")
+                    }
+                }
+                Err(err) => println!("{}", err),
+            }
+        }
     }
-    // result.
-    // println!("{:#?}", result);
+
     Ok(())
 }
 
 fn read_input() -> color_eyre::Result<String> {
     let input_file = "src/demo_data/tsm.json";
-    let input = std::fs::read_to_string(input_file).wrap_err(format!("Reading {}", input_file))?;
+    let input =
+        std::fs::read_to_string(input_file).wrap_err(format!("Error reading {}", input_file))?;
     Ok(input)
+}
+
+fn is_valid_tabs_number(
+    window: &HashMap<String, TSMTab>,
+    tabs_number_in_file: usize,
+) -> color_eyre::Result<bool> {
+    let tabs = window.values().collect::<Vec<_>>().len();
+    if tabs == tabs_number_in_file {
+        Ok(true)
+    } else {
+        Err(eyre!("Incorrect number of tabs"))
+    }
 }
