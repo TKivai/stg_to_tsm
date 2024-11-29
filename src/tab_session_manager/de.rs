@@ -42,10 +42,10 @@ impl TSMSession {
             .fold(0, |acc, window| acc + window.value.tabs.len());
 
         if tabs_number_counted == self.tabs_number {
-            return true;
+            true
+        } else {
+            false
         }
-
-        false
     }
 }
 
@@ -135,10 +135,13 @@ impl<'de> Visitor<'de> for TSMWindowVisitor {
             ..Default::default()
         };
 
-        let mut tabs_vec:Vec<TSMObject<TSMTab>> = Vec::new();
+        let mut tabs_vec: Vec<TSMObject<TSMTab>> = Vec::new();
 
         while let Some(key) = map.next_key::<String>()? {
-            tabs_vec.push(TSMObject { id: key, value: map.next_value::<TSMTab>()? });
+            tabs_vec.push(TSMObject {
+                id: key,
+                value: map.next_value::<TSMTab>()?,
+            });
         }
 
         window.tabs = tabs_vec;

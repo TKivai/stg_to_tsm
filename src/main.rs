@@ -13,7 +13,7 @@ fn main() -> color_eyre::Result<()> {
             println!("Valid window");
             println!("Session: {:?}", session);
         } else {
-            println!("Inalid window")
+            println!("Invalid window")
         }
     }
     Ok(())
